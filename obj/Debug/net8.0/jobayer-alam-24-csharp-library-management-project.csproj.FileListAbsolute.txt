@@ -1,0 +1,15 @@
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\bin\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.exe
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\bin\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.deps.json
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\bin\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.runtimeconfig.json
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\bin\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.dll
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\bin\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.pdb
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.AssemblyInfoInputs.cache
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.AssemblyInfo.cs
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.csproj.CoreCompileInputs.cache
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.sourcelink.json
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.dll
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\refint\jobayer-alam-24-csharp-library-management-project.dll
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.pdb
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\jobayer-alam-24-csharp-library-management-project.genruntimeconfig.cache
+C:\Users\JOBAYER\OneDrive\Tài liệu\jobayer-alam-24-csharp-library-management-project\obj\Debug\net8.0\ref\jobayer-alam-24-csharp-library-management-project.dll

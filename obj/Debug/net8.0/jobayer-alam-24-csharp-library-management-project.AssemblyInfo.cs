@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jobayer-alam-24-csharp-library-management-project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a7de58aa9327cb7b5e88dfd9b8bfb33b6402f57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c516e30b876a458c351e15ee912ed01e301cc99")]
 [assembly: System.Reflection.AssemblyProductAttribute("jobayer-alam-24-csharp-library-management-project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jobayer-alam-24-csharp-library-management-project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

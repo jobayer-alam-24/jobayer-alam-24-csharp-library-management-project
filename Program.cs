@@ -57,9 +57,9 @@
             get { return publicationYear; }
             set
             {
-                if (value > DateTime.Now.Year)
+                if (value > DateTime.Now.Year || value < 1350)
                 {
-                    throw new ArgumentException("Invalid Publication Year Provided!");
+                    throw new ArgumentException("Invalid Publication Year Provided! (Year->1350-Recent)");
                 }
                 else
                 {
@@ -72,15 +72,51 @@
             get { return availableCopies; }
             set
             {
-                if (value <= 0)
+                if (value < 0)
                 {
-                    throw new ArgumentException("Negative value or zero is not allowed for available copies.");
+                    throw new ArgumentException("Negative value is not allowed for available copies.");
                 }
                 availableCopies = value;
             }
         }
+        public void BorrowBook(){
+             if (AvailableCopies > 0)
+            {
+                Console.WriteLine($"--------------Taking Input---------");
+                Console.Write($"How many books do you want to Borrow: ");
+
+                if(int.TryParse(Console.ReadLine(), out int borrowCopy)){
+                    AvailableCopies -= borrowCopy;
+                }else{
+                    throw new ArgumentException("Invalid Book Number.");
+                }
+                
+                Console.WriteLine($"============Borrowed Info=========");
+                Console.WriteLine($"Thanks For Borrowing. ");
+                Console.WriteLine($"Copies left: {AvailableCopies}");
+            }else{
+                Console.WriteLine($"No copies are Available Right Now.");
+            }
+        }
+        public string CheckAvailability()
+        {
+            if (AvailableCopies != null)
+            {
+                if (AvailableCopies == 0)
+                {
+                    return "Not Available!";
+                }
+                else
+                {
+                    return "Available";
+                }
+            }else{
+                return "Invalid Copies!";
+            }
+        }
         //Setting Values
-        public void SetBookInfo(){
+        public void SetBookInfo()
+        {
             Console.Write($"Enter Your Book Name: ");
             Title = Console.ReadLine();
             Console.Write($"Enter the Author Name: ");
@@ -101,6 +137,8 @@
             Console.WriteLine($"ISBN Number: {ISBN}");
             Console.WriteLine($"Available Copies: {AvailableCopies}");
             Console.WriteLine($"Publication Year: {PublicationYear}");
+            Console.WriteLine($"Availablity: {CheckAvailability()}");
+            BorrowBook();
         }
 
     }
