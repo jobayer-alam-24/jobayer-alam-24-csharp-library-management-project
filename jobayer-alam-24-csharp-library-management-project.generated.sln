@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jobayer-alam-24-csharp-library-management-project", "jobayer-alam-24-csharp-library-management-project.csproj", "{AF427EFE-2FA1-4B90-A062-8C44C6F2AD29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jobayer-alam-24-csharp-library-management-project", "jobayer-alam-24-csharp-library-management-project.csproj", "{28B75AAD-7F1B-4C63-801A-FFC3562007DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF427EFE-2FA1-4B90-A062-8C44C6F2AD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF427EFE-2FA1-4B90-A062-8C44C6F2AD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF427EFE-2FA1-4B90-A062-8C44C6F2AD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF427EFE-2FA1-4B90-A062-8C44C6F2AD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B75AAD-7F1B-4C63-801A-FFC3562007DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B75AAD-7F1B-4C63-801A-FFC3562007DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B75AAD-7F1B-4C63-801A-FFC3562007DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B75AAD-7F1B-4C63-801A-FFC3562007DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

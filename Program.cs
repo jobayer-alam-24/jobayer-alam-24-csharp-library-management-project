@@ -7,6 +7,7 @@
         private string isbn;
         private int publicationYear;
         private int? availableCopies;
+        private  int borrowCopy = 0;
         public string Title
         {
             get { return title; }
@@ -85,7 +86,7 @@
                 Console.WriteLine($"--------------Taking Input---------");
                 Console.Write($"How many books do you want to Borrow: ");
 
-                if(int.TryParse(Console.ReadLine(), out int borrowCopy)){
+                if(int.TryParse(Console.ReadLine(), out borrowCopy)){
                     AvailableCopies -= borrowCopy;
                 }else{
                     throw new ArgumentException("Invalid Book Number.");
@@ -96,6 +97,31 @@
                 Console.WriteLine($"Copies left: {AvailableCopies}");
             }else{
                 Console.WriteLine($"No copies are Available Right Now.");
+            }
+        }
+        public void ReturnBook(){
+             if (borrowCopy > 0)
+            {
+                
+                Console.WriteLine($"--------------Taking Input---------");
+                Console.Write($"How many books do you want to Return: ");
+
+                if(int.TryParse(Console.ReadLine(), out int returnCopy) && returnCopy <= borrowCopy){
+                    AvailableCopies += returnCopy;
+                    borrowCopy -= returnCopy;
+                }
+                else if(returnCopy > borrowCopy){
+                    throw new ArgumentException($"Return is not possible You did not borrow {returnCopy} Books");
+                }
+                else{
+                    throw new ArgumentException("Invalid Book Number.");
+                }
+                
+                Console.WriteLine($"============Returned Info=========");
+                Console.WriteLine($"Thanks For Returning. ");
+                Console.WriteLine($"Copies left: {AvailableCopies}");
+            }else{
+                Console.WriteLine($"You did not Borrow any book. Return is not Possible");
             }
         }
         public string CheckAvailability()
@@ -139,6 +165,7 @@
             Console.WriteLine($"Publication Year: {PublicationYear}");
             Console.WriteLine($"Availablity: {CheckAvailability()}");
             BorrowBook();
+            ReturnBook();
         }
 
     }
